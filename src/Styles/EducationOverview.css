@@ -1,0 +1,122 @@
+
+.education-overview-container {
+    border: 1px solid black;
+  position: relative;
+  top: 100vh; /* positioned right below the hero */
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+h2 {
+    margin-top: 100px;
+}
+
+.education {
+  margin: auto;
+  border-radius: 4px; 
+  box-shadow: 0px 0px 1px #171a1f14, 0px 0px 2px #171a1f14; /* shadow-xs */
+  width: 90%
+}
+
+
+.education-header {
+    padding-top: 30px;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.school-icon {
+  width: 57px; 
+  height: 53px; 
+  background: #BDD1E0FF; /* primary-500 */
+  border-radius: 9999px; 
+}
+
+.school-name{
+      font-family: Inter; /* Body */
+  font-size: 20px; 
+  line-height: 28px; 
+  font-weight: 600; 
+  color: #171A1FFF; /* neutral-900 */
+}
+
+.timeline {
+      font-family: Roboto; 
+  font-size: 14px; 
+  line-height: 20px; 
+  font-weight: 400; 
+  color: #565D6DFF; /* neutral-600 */
+}
+
+.slim-line {
+   width: 350px; 
+  height: 0px; 
+  margin: auto;
+  border-width: 1px; 
+  border-color: #DEE1E6FF; /* neutral-300 */
+  border-style: solid; 
+  transform: rotate(0deg);
+}
+
+.education-info {
+    text-align: center;
+}
+
+.degree-name {
+    text-align: center;
+    padding-top: 20px;
+    font-family: Inter; /* Body */
+  font-size: 24px; 
+  line-height: 28px; 
+  font-weight: 500; 
+  color: #171A1FFF;
+}
+
+.grade {
+  font-family: Inter; /* Body */
+  font-size: 18px; 
+  line-height: 28px; 
+  font-weight: 500; 
+  color: #171A1FFF; /* neutral-900 */
+  padding-top: 10px;
+}
+
+.course-work, .activities {
+  width: 350px; 
+  font-family: Roboto; 
+  font-size: 20px; 
+  line-height: 24px; 
+  font-weight: 400; 
+  color: #171A1FFF; /* neutral-900 */
+  padding-top: 10px;
+}
+
+.activities {
+    padding-bottom: 30px;
+}
+
+@media (min-width: 1024px) {
+    .education {
+        width: 1243px;
+        margin-left: 20px;
+    }
+
+    .slim-line {
+        width: 1200px;
+    }
+
+    .degree-info, .course-work, .activities, .degree-name, .grade {
+        text-align: left;
+        width: 90%;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
+
+
+

@@ -1,0 +1,204 @@
+
+.hero-container {
+    position: relative;
+    height: 100%;
+}
+
+.my-image {
+  position: absolute; 
+  top: 114px; 
+  left: 51px; 
+  width: 281px; 
+  height: 255px; 
+  border-radius: 9999px; 
+  border: 3px black;
+}
+
+.intro {
+  position: absolute; 
+  top: 400px; 
+  left: -44px; 
+  width: 482px; 
+  height: 103px; 
+  font-family: Poppins; 
+  font-size: 30px; 
+  line-height: 1.4; 
+  font-weight: 700; 
+  color: #BDD1E0FF; 
+  text-align: center;
+  margin-left: 15px;
+}
+
+.tagline {
+  position: absolute; 
+  top: 522px; 
+  left: 13px; 
+  width: 368px; 
+  height: 155px; 
+  font-family: Poppins; /* Heading */
+  font-size: 24px; 
+  line-height: 32px; 
+  font-weight: 400; 
+  color: #565D6DFF; /* neutral-600 */
+  text-align: center;
+}
+
+.view-my-work-button {
+  position: absolute; 
+  top: 657px; 
+  left: 111px; 
+  width: 161.84375px; 
+  height: 40px; 
+  padding: 0 12px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  font-family: Inter; 
+  font-size: 14px; 
+  line-height: 22px; 
+  font-weight: 600; 
+  color: #2D4A60FF; /* primary-800 */
+  background: #BDD1E0FF; /* primary-500 */
+  opacity: 1; 
+  border: none; 
+  border-radius: 10px; 
+  box-shadow: 0px 0px 1px #171a1f14, 0px 0px 2px #171a1f14; /* shadow-xs */
+  cursor: pointer;
+}
+
+.view-my-work-button:hover {
+  color: #2D4A60FF; /* primary-800 */
+  background: #9EBBD1FF; /* primary-550 */
+}
+
+.view-my-work-button:active {
+  color: #2D4A60FF; /* primary-800 */
+  background: #7FA6C3FF; /* primary-600 */
+}
+
+.download-cv-button {
+      position: absolute; 
+  top: 728px; 
+  left: 111px; 
+  width: 157.875px; 
+  height: 40px; 
+  padding: 0 12px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  font-family: Inter; 
+  font-size: 14px; 
+  line-height: 22px; 
+  font-weight: 600; 
+  color: #BDD1E0FF; /* primary-500 */
+  background: #FFFFFFFF; /* white */
+  opacity: 1; 
+  border-radius: 10px; 
+  border-width: 1px; 
+  border-color: #BDD1E0FF; /* primary-500 */
+  border-style: solid;
+  cursor: pointer;
+}
+
+.download-cv-button:hover {
+  color: #BDD1E0FF; /* primary-500 */
+  background: #FFFFFFFF; /* white */
+}
+
+.download-cv-button:active {
+  color: #BDD1E0FF; /* primary-500 */
+  background: #FFFFFFFF; /* white */
+}
+
+@media (min-width: 1024px) {
+
+    .hero-container {
+        position: absolute;
+        top: 100px;
+        left: -116px;
+    }
+
+    .my-image {
+          position: absolute; 
+        top: 176px; 
+        left: 232px; 
+        width: 384px; 
+        height: 400px; 
+        border-radius: 9999px;
+    }
+
+    .intro {
+          position: absolute; 
+        top: 213px; 
+        left: 630px; 
+        width: 1000px; 
+        height: 216px; 
+        font-family: Poppins; /* Heading */
+        font-size: 72px; 
+        line-height: 72px; 
+        font-weight: 700; 
+        color: #BDD1E0FF; /* primary-500 */
+    }
+
+    .tagline {
+          position: absolute; 
+        top: 387px; 
+        left: 850px; 
+        width: 528px; 
+        font-family: Poppins; /* Heading */
+        font-size: 24px; 
+        line-height: 32px; 
+        font-weight: 400; 
+        color: #565D6DFF; /* neutral-600 */
+    }
+
+    .view-my-work-button {
+          position: absolute; 
+        top: 484px; 
+        left: 752px; 
+        width: 161.84375px; 
+        height: 40px; 
+        padding: 0 12px; 
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        font-family: Inter; 
+        font-size: 14px; 
+        line-height: 22px; 
+        font-weight: 600; 
+        color: #2D4A60FF; /* primary-800 */
+        background: #BDD1E0FF; /* primary-500 */
+        opacity: 1; 
+        border: none; 
+        border-radius: 10px; 
+        box-shadow: 0px 0px 1px #171a1f14, 0px 0px 2px #171a1f14; /* shadow-xs */
+    }
+
+    .download-cv-button {
+          position: absolute; 
+        top: 484px; 
+        left: 929px; 
+        width: 157.875px; 
+        height: 40px; 
+        padding: 0 12px; 
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        font-family: Inter; 
+        font-size: 14px; 
+        line-height: 22px; 
+        font-weight: 600; 
+        color: #BDD1E0FF; /* primary-500 */
+        background: #FFFFFFFF; /* white */
+        opacity: 1; 
+        border-radius: 10px; 
+        border-width: 1px; 
+        border-color: #BDD1E0FF; /* primary-500 */
+        border-style: solid;
+    }
+
+    .action-buttons {
+        position: absolute;
+        left: 190px;
+    }
+}

@@ -1,0 +1,62 @@
+
+.about-me-container {
+  position: relative;
+  top: 100vh; /* positioned right below the hero */
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-family: Poppins; /* Heading */
+  font-size: 48px; 
+  line-height: 40px; 
+  font-weight: 700; 
+  color: #BDD1E0FF; /* primary-500 */
+}
+
+.about-me {
+    margin-top: 50px;
+  width: 345px; 
+  font-family: Inter; /* Body */
+  font-size: 24px; 
+  line-height: 32px; 
+  font-weight: 400; 
+  color: #565D6DFF; /* neutral-600 */
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
+
+    .about-me-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h2 { 
+    font-family: Poppins; /* Heading */
+    font-size: 36px; 
+    line-height: 40px; 
+    font-weight: 700; 
+    color: #BDD1E0FF; /* primary-500 */
+    }
+
+    .about-me {
+        margin-top: 80px;
+        width: 765px; 
+        height: 232px; 
+        font-family: Inter; /* Body */
+        font-size: 24px; 
+        line-height: 29px; 
+        font-weight: 400; 
+        color: #565D6DFF; /* neutral-600 */
+        text-align: left;
+    }
+}
+
