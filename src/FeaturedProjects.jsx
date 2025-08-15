@@ -73,6 +73,7 @@ function Certifications () {
     
     const projects = [
         {
+            link: "https://sabastian-ihekweme.github.io/dash-gpa-tracker/",
             image: dash,
             title: 'Dash',
             description: `An interactive tool for tracking 
@@ -81,6 +82,7 @@ function Certifications () {
         },
 
         {
+            link: "https://sabastian-ihekweme.github.io/dash-gpa-tracker/",
             image: dash,
             title: 'Dash',
             description: `An interactive tool for tracking 
@@ -101,7 +103,7 @@ function Certifications () {
                 projects.map((project, index) => {
                     return (
                         <div className="project">
-
+                        <a href={project.link}>
                             <div className="project-image-div">
                                 <img className="project-image" src={dash} />
                             </div>
@@ -127,7 +129,7 @@ function Certifications () {
                                 }
 
                             </div>
-
+                        </a>
                         </div>
                     )
                 })
