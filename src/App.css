@@ -2,3 +2,13 @@
 .hero-container {
   border-color: black;
 }
+
+body {
+  max-width: 480px;
+}
+
+@media (min-width: 1024px) {
+  body {
+    max-width: 1680px;
+  }
+}

@@ -20,7 +20,7 @@ h2 {
 }
 
 .about-me {
-    margin-top: 50px;
+  margin: auto;
   width: 345px; 
   font-family: Inter; /* Body */
   font-size: 24px; 

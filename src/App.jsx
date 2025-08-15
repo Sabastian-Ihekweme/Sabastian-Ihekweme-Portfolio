@@ -6,6 +6,7 @@ import AboutMe from './AboutMe';
 import EducationOverview from './EducationOverview';
 import Certifications from './Certifications';
 import Skills from './Skills';
+import FeaturedProjects from './FeaturedProjects';
 import './App.css'
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <EducationOverview />
         <Certifications />
         <Skills />
+        <FeaturedProjects />
       </div>
     </>
   )
