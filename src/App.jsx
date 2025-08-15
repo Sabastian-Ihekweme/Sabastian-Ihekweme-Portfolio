@@ -5,7 +5,7 @@ import Hero from './Hero';
 import AboutMe from './AboutMe';
 import EducationOverview from './EducationOverview';
 import Certifications from './Certifications';
-import SkillsAndTools from './SkillsAndTools';
+import Skills from './Skills';
 import './App.css'
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
         <AboutMe />
         <EducationOverview />
         <Certifications />
-        <SkillsAndTools />
+        <Skills />
       </div>
     </>
   )

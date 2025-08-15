@@ -85,3 +85,12 @@ h3 {
     align-items: center;
     gap: 30px;
 }
+
+.skills-slider {
+    width: 100%;
+    max-height: 500px;
+    position: relative;
+    /* Add padding to create space for arrows */
+    padding: 0 60px;
+    margin-top: 45px;
+}

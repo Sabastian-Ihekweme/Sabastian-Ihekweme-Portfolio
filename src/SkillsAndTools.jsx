@@ -8,15 +8,10 @@ import data from "./assets/icons/database.png";
 import others from "./assets/icons/box.png";
 import person from "./assets/icons/person.png";
 
-function SkillsAndTools() {
+import { Swiper, SwiperSlide } from "swiper/react";
+import { EffectCoverflow, Navigation, Pagination } from "swiper/modules";
 
-const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 1
-  };
+function SkillsAndTools() {
 
   const skillSets = [
     {
@@ -49,7 +44,13 @@ const settings = {
       <div className="skills-container">
         <h2>Skills & Tools</h2>
         <div className="skills-carousel">
-        <Slider {...settings}>
+
+        <Swiper
+          modules={(EffectCoverflow, Navigation, Pagination)}
+          pagination={(
+            clickable: true,
+          )}
+          >
         {skillSets.map((skillSet, index) => {
           return (
             <div key={index} className="skill-category">
@@ -66,7 +67,8 @@ const settings = {
             </div>
           );
         })}
-        </Slider>
+        </Swiper>
+
       </div>
       </div>
     </>

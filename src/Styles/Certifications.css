@@ -287,6 +287,113 @@
     color: rgb(30, 118, 181);
 }
 
+.skills-container {
+  border: 1px solid black;
+  position: relative;
+  top: 100vh; 
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 130px;
+  text-align: center;
+}
+
+img.category-icon {
+    margin-left: 100px;
+    margin-top: 25px;
+}
+
+.skill-category {
+  max-width: 265px; 
+  min-width: 256px;
+  min-height: 318px;
+  height: 318px auto; 
+  background: #FFFFFFFF; /* white */
+  border-radius: 10px; 
+  border-width: 1px; 
+  border-color: #DEE1E6FF; /* neutral-300 */
+  border-style: solid; 
+  box-shadow: 0px 0px 1px #171a1f14, 0px 0px 2px #171a1f14; /* shadow-xs */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 25px;
+  padding-top: 25px;
+    margin: 0 auto;
+  padding: 0 10px;
+  box-sizing: border-box
+}
+
+.category-icon {
+  width: 36px; 
+  height: 36px; 
+  fill: #BDD1E0FF; /* primary-500 */
+}
+
+h3 {
+  padding-top: 5px;
+  font-family: Poppins; /* Heading */
+  font-size: 20px; 
+  line-height: 28px; 
+  font-weight: 600; 
+  color: #171A1FFF; /* neutral-900 */
+  margin: auto;
+}
+
+.skill-stack {
+    padding-top: 25px;
+    margin: auto;
+    width: 150px;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.skill {
+  width: auto; 
+  height: 30px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  font-family: Inter; /* Body */
+  font-size: 14px; 
+  line-height: 20px; 
+  font-weight: 400; 
+  opacity: 1;
+  background-color: #F3F4F6FF;
+  padding: 10px;
+  border-radius: 30px;;
+}
+
+.skills-carousel {
+    width: 100%;
+    max-height: 500px;
+    position: relative;
+    padding: 0 60px;
+    margin-top: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.skills-slider {
+    width: 100%;
+    max-height: 500px;
+    position: relative;
+    /* Add padding to create space for arrows */
+    padding: 0 60px;
+    margin-top: 45px;
+}
 
 
 
