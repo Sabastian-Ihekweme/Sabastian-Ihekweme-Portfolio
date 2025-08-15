@@ -1,6 +1,8 @@
 import React, { useEffect, useRef } from 'react';
 import './Styles/ContactMe.css';
 import { useForm, ValidationError } from '@formspree/react';
+import github from './assets/icons/github.png';
+import linkdin from './assets/icons/linkdin.png';
 
 
 function ContactMe() {
@@ -12,6 +14,7 @@ function ContactMe() {
     useEffect(() => {
         if (state.succeeded) {
             alert('Message sent successfully!');
+
         }
     }, [state.succeeded]);
 
@@ -80,9 +83,36 @@ function ContactMe() {
                  creative ideas, or opportunities to be part of 
                  your vision. Feel free to reach out through any 
                  of the channels below.
+
+                <div className="channels">
+                    <a 
+                    target="null"
+                    href="https://github.com/Sabastian-Ihekweme">
+                    <img className="channel-icon" src={github} />
+                    </a>
+                    
+                    <a
+                    target="null" 
+                    href="https://www.linkedin.com/in/sabastian-fabian-ihekweme-5abb06302/">
+                    <img className="channel-icon" src={linkdin} />
+                    </a>
+                </div>
+
             </div>
+
+
             </div>
+
+
+
         </div>
+            <footer>
+                <hr />
+
+                <p>© 2025 Sabastian Ihekweme. All rights reserved.</p>
+        
+            </footer>
+
         </>
     )
 }
