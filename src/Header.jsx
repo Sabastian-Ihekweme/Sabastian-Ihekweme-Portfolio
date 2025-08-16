@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-
+import { NavLink } from 'react-router';
 import './Styles/Header.css';
 import logo from './assets/logo.png';
 import menuIcon from './assets/icons/menu.png';
@@ -26,7 +26,9 @@ function Header({ onScrollToHero, onScrollToAbout, onScrollToProjects, onScrollT
         
         <>
             <nav>
+                <NavLink to="/" end>
                 <img className="saby-logo" src={logo} />
+                </NavLink>
 
                 <ul className="header-menu"
                     style={{
@@ -39,11 +41,32 @@ function Header({ onScrollToHero, onScrollToAbout, onScrollToProjects, onScrollT
                         <button onClick={onScrollToAbout}>About</button>
                     </li>
 
-                    <li className="header-menu-item"><a href="">Education</a></li>
-                    <li className="header-menu-item"><a href="">Certifications</a></li>
-                    <li className="header-menu-item"><a href="">Skills</a></li>
-                    <li className="header-menu-item"><a href="">Projects</a></li>
-                    <li className="header-menu-item"><a href="">Contact Me</a></li>
+                    <li className="header-menu-item">
+                        <NavLink to="/education">Education</NavLink>
+                        </li>
+
+                    <li className="header-menu-item">
+                        <NavLink to="/certifications">
+                        Certifications</NavLink>
+                       </li>
+
+                    <li className="header-menu-item">
+                        <NavLink to="/skills">
+                            Skills
+                        </NavLink>
+                    </li>
+
+                    <li className="header-menu-item">
+                        <NavLink to="/projects">
+                            Projects
+                        </NavLink>
+                    </li>
+
+                    <li className="header-menu-item">
+                        <NavLink to="/contact-me">
+                            Contact Me
+                        </NavLink>
+                    </li>
                 </ul>
 
                 <div className="menu-icon">
