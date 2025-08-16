@@ -38,7 +38,9 @@ function Header({ onScrollToHero, onScrollToAbout, onScrollToProjects, onScrollT
                     }} 
                 >
                     <li className="header-menu-item">
-                        <button onClick={onScrollToAbout}>About</button>
+                        <NavLink to="about-me">
+                            About
+                        </NavLink>
                     </li>
 
                     <li className="header-menu-item">

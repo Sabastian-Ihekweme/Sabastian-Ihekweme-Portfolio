@@ -106,12 +106,6 @@ function ContactMe() {
 
 
         </div>
-            <footer>
-                <hr />
-
-                <p>© 2025 Sabastian Ihekweme. All rights reserved.</p>
-        
-            </footer>
 
         </>
     )

@@ -8,11 +8,12 @@ function Hero() {
                 <div>
                     <img className="my-image" src={myImage} />
                 </div>
+            
 
                 <div className="intro">
                     Hi,<br />
                     I'm Sabastian Ihekweme
-                </div>
+
 
                 <div className="tagline">
                     Software Engineering Student • Frontend Development • Data Analytics
@@ -23,6 +24,8 @@ function Hero() {
 
                     <button className="download-cv-button">Download CV</button>
                 </div>
+                </div>
+
             </div>
         </>
     )

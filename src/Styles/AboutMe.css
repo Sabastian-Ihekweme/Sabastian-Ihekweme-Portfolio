@@ -18,6 +18,8 @@ h2 {
 }
 
 .about-me {
+  justify-content: center;
+  align-items: center;
   margin: auto;
   width: 345px; 
   font-family: Inter; /* Body */

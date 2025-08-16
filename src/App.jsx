@@ -14,18 +14,26 @@ function App() {
   return (
     <>
       <div className="container">
-        <BrowserRouter>
-          <Header />
-          <Routes>
-            <Route index element={ <Hero />} />
-            <Route path="/about-me" element={<AboutMe />} />
-            <Route path="/education" element={<EducationOverview />} />
-            <Route path="/certifications" element={<Certifications />} />
-            <Route path="/skills" element={<Skills />} />
-            <Route path="/projects" element={<FeaturedProjects />} />
-            <Route path="/contact-me" element={<ContactMe />} />
-          </Routes>
-        </BrowserRouter>
+        <div className="components">
+          <BrowserRouter>
+            <Header />
+            <Routes>
+              <Route index element={<Hero />} />
+              <Route path="/about-me" element={<AboutMe />} />
+              <Route path="/education" element={<EducationOverview />} />
+              <Route path="/certifications" element={<Certifications />} />
+              <Route path="/skills" element={<Skills />} />
+              <Route path="/projects" element={<FeaturedProjects />} />
+              <Route path="/contact-me" element={<ContactMe />} />
+            </Routes>
+          </BrowserRouter>
+        </div>
+
+        <footer>
+          <hr />
+
+          <p>© 2025 Sabastian Ihekweme. All rights reserved.</p>
+        </footer>
       </div>
     </>
   );
