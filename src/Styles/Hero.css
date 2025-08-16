@@ -1,23 +1,23 @@
 
 .hero-container {
     position: relative;
+    max-height: 100vh;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .my-image {
-  position: absolute; 
-  top: 114px; 
-  left: 51px; 
   width: 281px; 
   height: 255px; 
   border-radius: 9999px; 
   border: 3px black;
+  margin-top: 100px;
 }
 
 .intro {
-  position: absolute; 
-  top: 400px; 
-  left: -44px; 
   width: 482px; 
   height: 103px; 
   font-family: Poppins; 
@@ -30,9 +30,6 @@
 }
 
 .tagline {
-  position: absolute; 
-  top: 522px; 
-  left: 13px; 
   width: 368px; 
   height: 155px; 
   font-family: Poppins; /* Heading */
@@ -43,10 +40,13 @@
   text-align: center;
 }
 
+.action-buttons {
+  text-align: center;
+  align-items: center;
+  justify-content: ;
+}
+
 .view-my-work-button {
-  position: absolute; 
-  top: 657px; 
-  left: 111px; 
   width: 161.84375px; 
   height: 40px; 
   padding: 0 12px; 
@@ -77,10 +77,6 @@
 }
 
 .download-cv-button {
-      position: absolute; 
-  top: 728px; 
-  left: 111px; 
-  width: 157.875px; 
   height: 40px; 
   padding: 0 12px; 
   display: flex; 
@@ -119,18 +115,12 @@
     }
 
     .my-image {
-          position: absolute; 
-        top: 176px; 
-        left: 232px; 
         width: 384px; 
         height: 400px; 
         border-radius: 9999px;
     }
 
     .intro {
-          position: absolute; 
-        top: 213px; 
-        left: 630px; 
         width: 1000px; 
         height: 216px; 
         font-family: Poppins; /* Heading */
@@ -140,10 +130,7 @@
         color: #BDD1E0FF; /* primary-500 */
     }
 
-    .tagline {
-          position: absolute; 
-        top: 387px; 
-        left: 850px; 
+    .tagline { 
         width: 528px; 
         font-family: Poppins; /* Heading */
         font-size: 24px; 
@@ -153,9 +140,6 @@
     }
 
     .view-my-work-button {
-          position: absolute; 
-        top: 484px; 
-        left: 752px; 
         width: 161.84375px; 
         height: 40px; 
         padding: 0 12px; 
@@ -175,9 +159,6 @@
     }
 
     .download-cv-button {
-          position: absolute; 
-        top: 484px; 
-        left: 929px; 
         width: 157.875px; 
         height: 40px; 
         padding: 0 12px; 
@@ -198,7 +179,6 @@
     }
 
     .action-buttons {
-        position: absolute;
-        left: 190px;
+
     }
 }
