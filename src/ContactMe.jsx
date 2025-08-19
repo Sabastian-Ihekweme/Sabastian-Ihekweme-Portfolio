@@ -3,6 +3,7 @@ import './Styles/ContactMe.css';
 import { useForm, ValidationError } from '@formspree/react';
 import github from './assets/icons/github.png';
 import linkdin from './assets/icons/linkdin.png';
+import { motion } from 'framer-motion';
 
 
 function ContactMe() {
@@ -20,7 +21,11 @@ function ContactMe() {
 
     return (
         <>
-        <div className="contact-me-container">
+        <motion.div
+            initial={{opacity: 0}}
+            animate={{opacity: 1}}
+            exit={{ opacity: 0}}
+        className="contact-me-container">
             <h2>Contact Me</h2>
 
             <div className="contact-me">
@@ -105,7 +110,7 @@ function ContactMe() {
 
 
 
-        </div>
+        </motion.div>
 
         </>
     )

@@ -7,6 +7,7 @@ import './Styles/Certifications.css';
 import './Styles/SkillsAndTools.css';
 import './Styles/FeaturedProjects.css';
 import certificate1 from './assets/icons/certificates/1.png';
+import { motion } from 'framer-motion';
 
 function Certifications () {
 
@@ -27,7 +28,7 @@ function Certifications () {
         } else if (screenSize < 768) {
             setSlides(1);
         }
-    }, screenSize);
+    }, [screenSize]);
 
     console.log(screenSize);
 
@@ -93,7 +94,11 @@ function Certifications () {
 
     return (
         <>
-            <div className="projects-container">
+            <motion.div
+            initial={{opacity: 0}}
+            animate={{opacity: 1}}
+            exit={{ opacity: 0}}
+            className="projects-container">
                 <h2 className="featured-projects">Featured Projects</h2>
 
             <div className="skill-carousel projects-carousel certification-carousel">
@@ -140,7 +145,7 @@ function Certifications () {
 
             </div>
 
-            </div>
+            </motion.div>
 
         </>
     )

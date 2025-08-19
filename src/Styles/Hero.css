@@ -17,7 +17,7 @@
 }
 
 .intro {
-    display: flex;
+  display: flex;
   flex-direction: column;
   width: 482px; 
   height: 103px; 

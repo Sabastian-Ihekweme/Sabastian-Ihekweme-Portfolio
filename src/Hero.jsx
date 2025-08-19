@@ -1,10 +1,16 @@
 import './Styles/Hero.css';
 import myImage from './assets/icons/github.png';
+import { motion } from 'framer-motion';
 
 function Hero() {
     return (
         <>
-            <div className="hero-container">
+            <motion.div 
+
+            initial={{opacity: 0}}
+            animate={{opacity: 1}}
+            exit={{ opacity: 0}}
+            className="hero-container">
                 <div>
                     <img className="my-image" src={myImage} />
                 </div>
@@ -26,7 +32,7 @@ function Hero() {
                 </div>
                 </div>
 
-            </div>
+            </motion.div>
         </>
     )
 }

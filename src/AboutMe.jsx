@@ -1,9 +1,14 @@
 import "./Styles/AboutMe.css";
+import {motion} from "framer-motion";
 
 function AboutMe() {
     return (
         <>
-            <div className="about-me-container">
+            <motion.div
+            initial={{opacity: 0}}
+            animate={{opacity: 1}}
+            exit={{ opacity: 0}}
+             className="about-me-container">
                 <h2>About Me</h2>
 
                 <div className="about-me">
@@ -15,7 +20,7 @@ function AboutMe() {
                     make technology easy to use, and contribute solutions that 
                     create lasting impact in society.
                 </div>
-            </div>
+            </motion.div>
         </>
     )
 }

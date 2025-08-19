@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { motion } from 'framer-motion';
 
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -104,7 +105,11 @@ function Certifications () {
 
     return (
         <>
-            <div className="skills-container certifications-contianer">
+            <motion.div
+            initial={{opacity: 0}}
+            animate={{opacity: 1}}
+            exit={{ opacity: 0}}
+            className="skills-container certifications-contianer">
                 <h2>Skills & Tools</h2>
 
             <div className="skill-carousel certification-carousel">
@@ -132,7 +137,7 @@ function Certifications () {
 
             </div>
 
-            </div>
+            </motion.div>
 
         </>
     )

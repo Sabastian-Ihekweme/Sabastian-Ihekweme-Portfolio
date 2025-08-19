@@ -73,7 +73,7 @@ function Header({ onScrollToHero, onScrollToAbout, onScrollToProjects, onScrollT
 
                 <div className="menu-icon">
                     <img className="hamburger-menu"
-                     onClick={() => setIsOpen(!isOpen)} src={menuIcon} />
+                     onClick={() => setIsOpen(isOpen == false ? !isOpen : false)} src={menuIcon} />
                 </div>
             </nav>
         </>
