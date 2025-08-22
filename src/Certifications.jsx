@@ -7,6 +7,10 @@ import "slick-carousel/slick/slick-theme.css";
 
 import './Styles/Certifications.css';
 import certificate1 from './assets/icons/certificates/1.png';
+import certificate2 from './assets/icons/certificates/2.png';
+import certificate3 from './assets/icons/certificates/3.png';
+import certificate4 from './assets/icons/certificates/4.png';
+import certificate5 from './assets/icons/certificates/5.png';
 
 function Certifications () {
 
@@ -80,45 +84,38 @@ function Certifications () {
             link: "https://www.udemy.com/certificate/UC-a88ec42b-8b9e-4d06-8315-efab82cde1d5/?utm_campaign=email&utm_medium=email&utm_source=sendgrid.com" 
         },
 
+
         {
-            image: certificate1,
-            name: "The Complete JavaScript Course 2025: From Zero to Expert!",
-            issuedBy: "Udemy",
-            issuedOn: "August 2025",
-            link: "https://www.udemy.com/certificate/UC-a88ec42b-8b9e-4d06-8315-efab82cde1d5/?utm_campaign=email&utm_medium=email&utm_source=sendgrid.com" 
+            image: certificate5,
+            name: "Responsive Web Design",
+            issuedBy: "freeCodeCamp",
+            issuedOn: "April 2024",
+            link: "https://www.freecodecamp.org/certification/sabastian-fabian/responsive-web-design"
         },
 
         {
-            image: certificate1,
-            name: "The Complete JavaScript Course 2025: From Zero to Expert!",
-            issuedBy: "Udemy",
-            issuedOn: "August 2025",
-            link: "https://www.udemy.com/certificate/UC-a88ec42b-8b9e-4d06-8315-efab82cde1d5/?utm_campaign=email&utm_medium=email&utm_source=sendgrid.com" 
+            image: certificate2,
+            name: "AI Professional Development Skills in The Digital Age",
+            issuedBy: "alx_africa",
+            issuedOn: "December 2024",
+            link: "https://savanna.alxafrica.com/certificates/8YnNfrXxhH"
         },
 
         {
-            image: certificate1,
-            name: "The Complete JavaScript Course 2025: From Zero to Expert!",
-            issuedBy: "Udemy",
-            issuedOn: "August 2025",
-            link: "https://www.udemy.com/certificate/UC-a88ec42b-8b9e-4d06-8315-efab82cde1d5/?utm_campaign=email&utm_medium=email&utm_source=sendgrid.com" 
+            image: certificate3,
+            name: "Digital Skills: User Experience",
+            issuedBy: "FutureLearn",
+            issuedOn: "June 2024",
+            link: "https://www.futurelearn.com/certificates/3ayww7x"
         },
 
         {
-            image: certificate1,
-            name: "The Complete JavaScript Course 2025: From Zero to Expert!",
-            issuedBy: "Udemy",
-            issuedOn: "August 2025",
-            link: "https://www.udemy.com/certificate/UC-a88ec42b-8b9e-4d06-8315-efab82cde1d5/?utm_campaign=email&utm_medium=email&utm_source=sendgrid.com" 
+            image: certificate4,
+            name: "Introduction to Cyber Security",
+            issuedBy: "Cisco",
+            issuedBy: "December 2023",
+            link: "https://www.credly.com/badges/797e7626-2e6d-4817-bd86-df9d79576c92/print"
         },
-
-        {
-            image: certificate1,
-            name: "The Complete JavaScript Course 2025: From Zero to Expert!",
-            issuedBy: "Udemy",
-            issuedOn: "August 2025",
-            link: "https://www.udemy.com/certificate/UC-a88ec42b-8b9e-4d06-8315-efab82cde1d5/?utm_campaign=email&utm_medium=email&utm_source=sendgrid.com" 
-        }
     ]
 
     return (
@@ -138,7 +135,7 @@ function Certifications () {
                             <div key={index} className="certification">
 
                                 <div className="certificate-image-div">
-                                    <img className="certificate-image" src={certificate1} />
+                                    <img className="certificate-image" src={certification.image} />
                                 </div>
 
                                 <div className="certificate-info">

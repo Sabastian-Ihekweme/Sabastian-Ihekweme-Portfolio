@@ -9,9 +9,9 @@
 }
 
 .my-image {
-  width: 281px; 
+  width: 255px; 
   height: 255px; 
-  border-radius: 9999px; 
+  border-radius: 100%; 
   border: 3px black;
   margin-top: 100px;
 }
@@ -30,6 +30,7 @@
   margin-left: 15px;
   align-items: center;
   gap: 30px;
+  margin-top: 25px;
 }
 
 .tagline {
@@ -97,23 +98,23 @@
   font-size: 14px; 
   line-height: 22px; 
   font-weight: 600; 
-  color: #BDD1E0FF; /* primary-500 */
+  color: #2D4A60FF; /* primary-500 */
   background: #FFFFFFFF; /* white */
   opacity: 1; 
   border-radius: 10px; 
   border-width: 1px; 
-  border-color: #BDD1E0FF; /* primary-500 */
+  border-color: #2D4A60FF; /* primary-500 */
   border-style: solid;
   cursor: pointer;
 }
 
 .download-cv-button:hover {
-  color: #BDD1E0FF; /* primary-500 */
+  color: rgba(45, 74, 96, 0.633); /* primary-500 */
   background: #FFFFFFFF; /* white */
 }
 
 .download-cv-button:active {
-  color: #BDD1E0FF; /* primary-500 */
+  color: #2D4A60FF; /* primary-500 */
   background: #FFFFFFFF; /* white */
 }
 
@@ -180,12 +181,12 @@
         font-size: 14px; 
         line-height: 22px; 
         font-weight: 600; 
-        color: #BDD1E0FF; /* primary-500 */
+        color: #2D4A60FF; /* primary-500 */
         background: #FFFFFFFF; /* white */
         opacity: 1; 
         border-radius: 10px; 
         border-width: 1px; 
-        border-color: #BDD1E0FF; /* primary-500 */
+        border-color: #2D4A60FF; /* primary-500 */
         border-style: solid;
     }
 
