@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import dash from "./assets/icons/projects/dash.png";
 import taskmaster from "./assets/icons/projects/taskmaster.png";
+import ai_analysis from "./assets/icons/projects/ai-analysis.png"
 import './Styles/Certifications.css';
 import './Styles/SkillsAndTools.css';
 import './Styles/FeaturedProjects.css';
@@ -73,7 +74,20 @@ function Certifications () {
         ]
     };
     
-    const projects = [
+    const projects = [ 
+
+        {
+            link: "https://github.com/Sabastian-Ihekweme/AI-vs-Human-Content-Detection-1000-record-in-2025-Analysis/tree/main",
+            image: ai_analysis,
+            title: 'AI vs Human Content Detection 1000+ record in 2025 Analysis',
+            description: `Analyzed a Kaggle dataset of 1,367 text samples
+                         (AI-generated vs. human-written) using Python and 
+                         Pandas then built an interactive Power BI report to uncover 
+                            and identify key indicators that can improve 
+                         AI-content detection models.`,
+            techStack: ['Python', 'Pandas', 'Power BI']
+        },
+
         {
             link: "https://sabastian-ihekweme.github.io/dash-gpa-tracker/",
             image: dash,

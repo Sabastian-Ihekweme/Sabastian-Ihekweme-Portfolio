@@ -86,7 +86,7 @@ function Certifications () {
         {
         icon: data,
         category: "Data Analytics",
-        skills: ["Excel", "MySQL"],
+        skills: ["Python", "NumPy", "Pandas","Excel", "SQL", "Power BI", "Tableau"],
         },
 
         {
